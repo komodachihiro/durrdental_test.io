@@ -1674,3 +1674,56 @@ h2 {
 
   }
 }
+
+
+/* ========================================
+   スマホ版｜文字サイズ調整
+======================================== */
+@media (max-width: 800px) {
+
+  /* セクション見出し */
+  .section h2 {
+    font-size: 1.45rem;
+  }
+
+  /* 導入説明文 */
+  .intro-layout p {
+    font-size: 1.05rem;
+    line-height: 1.9;
+  }
+
+  /* 製品紹介見出し */
+  .showcase-item h2 {
+    font-size: 1.3rem;
+  }
+
+  /* 導入医院インタビュー見出し */
+  .interview-title {
+    font-size: 1.2rem;
+  }
+
+  /* インタビュー説明文 */
+  .interview-description {
+    font-size: 1rem;
+  }
+
+  /* サポートの説明文 */
+  .support-content p {
+    font-size: 0.9rem;
+  }
+
+  .phone-column .long-term-title {
+    font-size: 2.1rem;
+    text-align: center;
+    font-weight: 500;
+  }
+
+  /* 長期的な医院経営の本文 */
+  .long-term-description {
+    font-size: 1.2rem;
+    line-height: 1.9;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+}
