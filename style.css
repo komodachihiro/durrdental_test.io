@@ -132,7 +132,7 @@ h2 {
 .hero-photo {
   position:absolute;
   inset:0;
-  background:url('assets/デスクトップ.png') center/cover no-repeat
+  background:url('assets/desktop.png') center/cover no-repeat
 }
 
 .hero-shade {
