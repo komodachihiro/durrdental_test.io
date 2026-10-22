@@ -132,7 +132,7 @@ h2 {
 .hero-photo {
   position:absolute;
   inset:0;
-  background:url('assets/desktop.png') center/cover no-repeat
+  background:url('assets/デスクトップ.png') center/cover no-repeat
 }
 
 .hero-shade {
@@ -964,7 +964,7 @@ h2 {
   .desktop-background {
     position: fixed;
     inset: 0;
-    background: linear-gradient(rgba(0,0,0,.36),rgba(0,0,0,.36)), url('assets/デスクトップ.png') center / cover no-repeat;
+    background: linear-gradient(rgba(0,0,0,.36),rgba(0,0,0,.36)), url('assets/desktop.png') center / cover no-repeat;
     z-index: 0;
   }
   .phone-column {
