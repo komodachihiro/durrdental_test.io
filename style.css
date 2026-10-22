@@ -282,9 +282,9 @@ h2 {
 
 /* 英語の小見出し */
 .showcase-label {
-  color: #C5E2FF;
+  color: #a0c8ef;
   font-family: 'Noto Serif JP', serif;
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   font-weight: 500;
   line-height: 1.5;
   padding-bottom: 10px;
@@ -358,7 +358,8 @@ h2 {
   font-weight: 600;
   line-height: 1.6;
   color: #444;
-  margin: 0 0 25px;
+  margin: 0 0 20px;
+  text-align: center;
 }
 
 /* 青い説明文 */
@@ -368,6 +369,7 @@ h2 {
   line-height: 1.8;
   color: #6f8cdb;
   margin: 0 0 30px;
+  text-align: center;
 }
 
 /* 5つのカード */
@@ -375,7 +377,7 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 25px;
+  gap: 35px;
 }
 
 /* 白いカード */
@@ -475,7 +477,7 @@ h2 {
 .compressor-detail-title {
   position: relative;
   margin: 0 0 24px;
-  padding-bottom: 12px;
+  padding-bottom: 0px;
   color: #3455aa;
   font-family: 'Noto Serif JP', serif;
   font-size: 2.4rem;
@@ -499,7 +501,7 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 15px 0 30px;
+  margin: 0px 0 5px;
 }
 
 .compressor-detail-visual img {
@@ -538,7 +540,7 @@ h2 {
 .suction-detail-title {
   position: relative;
   margin: 0 0 24px;
-  padding-bottom: 12px;
+  padding-bottom: 0px;
   color: #3455aa;
   font-family: 'Noto Serif JP', serif;
   font-size: 2.4rem;
@@ -562,7 +564,7 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 15px 0 30px;
+  margin: 0px 0 5px;
 }
 
 .suction-detail-visual img {
@@ -586,6 +588,25 @@ h2 {
   width: 100%;
   max-width: 340px;
   height: auto;
+}
+
+/* Tyscor VS4の特徴カード直後 */
+.long-term {
+  padding: 45px 0 0;
+  background: transparent;
+}
+
+.long-term-title {
+  margin-bottom: 25px;
+  color: #153c9b;
+  font-family: 'Noto Serif JP', serif;
+
+}
+
+.long-term-description{
+  color: #444;
+  letter-spacing: 1.5;
+  font-size: 1.3rem;
 }
 
 
@@ -1147,7 +1168,9 @@ h2 {
     padding: 65px 0;
   }
   .phone-column h2 {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
+    letter-spacing: 01px;
+    font-weight: 700;
   }
   .phone-column .section-head {
     margin-bottom: 28px;
@@ -1639,5 +1662,15 @@ h2 {
   .desktop-background {
     animation: none;
     transform: none;
+  }
+}
+
+
+@media (min-width: 801px) {
+  .phone-column .long-term-title {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 400;
+
   }
 }
